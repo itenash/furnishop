@@ -67,23 +67,36 @@ nav a:active {
 
 .products {
   padding: 2rem;
+   text-align: center;
 }
-
 .product-grid {
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
+  gap: 30px; 
+  flex-wrap: wrap; 
+  padding: 2rem;
 }
 
 .product-card {
   background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 1rem;
   text-align: center;
-  width: 100px;
+  width: 250px;
 }
+
+
+
+  
+img {
+  width: 400px;
+  height: 200px;
+}
+img {
+  margin: 40px;
+}
+
 
 footer {
   background-color: #2c3e50;
